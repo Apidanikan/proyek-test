@@ -7,7 +7,6 @@ plugins:
 nav:
   - Beranda: index.md
   - Halaman-Halaman:
-    - section/index.md
     - Halaman 1: section/hlm-1.md
     - Halaman 2: section/hlm-2.md
     - Halaman 3: section/hlm-3.md
