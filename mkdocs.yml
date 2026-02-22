@@ -5,12 +5,13 @@ plugins:
   - search
 
 nav:
-  - Home: index.md
+  - Beranda: index.md
   - Halaman-Halaman:
-    - Halaman-Halaman: section/index.md
+    - section/index.md
     - Halaman 1: section/hlm-1.md
     - Halaman 2: section/hlm-2.md
     - Halaman 3: section/hlm-3.md
+  - Add-on Saya: addon/index.md
 
 theme:
   name: material
