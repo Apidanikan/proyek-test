@@ -1,0 +1,38 @@
+site_name: My Docs
+site_url: https://test.com
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Halaman-Halaman:
+    - Halaman-Halaman: section/index.md
+    - Halaman 1: section/hlm-1.md
+    - Halaman 2: section/hlm-2.md
+    - Halaman 3: section/hlm-3.md
+
+theme:
+  name: material
+  palette:
+    # dark mode
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Ubah ke mode terang
+    
+    # dark mode
+    - scheme: default
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Ubah ke mode gelap
+
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
